@@ -4,4 +4,5 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="Jan22/Jan22.vcxproj" Id="69b90438-f90f-4809-b682-627dc48a45b8" />
+  <Project Path="Simple demo of reading INPUT files and writing OUTPUT files/Simple demo of reading INPUT files and writing OUTPUT files.vcxproj" Id="9544d605-5bd6-413e-9443-598be1db96e2" />
 </Solution>
