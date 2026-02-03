@@ -8,7 +8,7 @@
 #include <iostream> // Input/Output // able to perform both input and output operations.
 #include<string> //Allows us to use strings
 
-using namespace std; 
+using namespace std;
 
 int main()
 {
@@ -17,19 +17,19 @@ int main()
     //Naming the output file
     string outputFilename = "someText.txt";
 
-        //ifstream fin → input from file
-        //ofstream fout → output to file
+    //ifstream fin → input from file
+    //ofstream fout → output to file
 
     ofstream fout(outputFilename); // ofstream: ternal stream buffer, which performs input/output operations on the file they are associated with (if any).
-                                    // fout is just the commonly used variable name // usually refers to an output file stream used to write data to a file.
+    // fout is just the commonly used variable name // usually refers to an output file stream used to write data to a file.
 
     int numberOfTimesToWriteHelloWorld = 5'000; //five thousand
 
-    int numberOfTimesTextWasWritten = 0; 
+    int numberOfTimesTextWasWritten = 0;
 
     while (numberOfTimesTextWasWritten < numberOfTimesToWriteHelloWorld)
     {
-        fout << "Hello world????\n"; 
+        fout << "Hello world????\n";
 
         numberOfTimesTextWasWritten = numberOfTimesTextWasWritten + 1; //use numberOfTimesTextWasWritten++ ? //you could increment it yes
         // num
@@ -42,8 +42,7 @@ int main()
 
     fout.close(); // // close the file that is a variable named fout// this is the outputFilename "someText.txt"
 
-// fout is the text that goes into the txt file? and fout close is what ends the task?
+    // fout is the text that goes into the txt file? and fout close is what ends the task?
 
-// system("C:\\WINDOWS\\System32\\shutdown /s /t 0"); 
+    // system("C:\\WINDOWS\\System32\\shutdown /s /t 0"); 
 }
-
