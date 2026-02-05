@@ -21,11 +21,10 @@ int main()
 	//Let's just "drive the car" and not worry about the deets (details)
 	while (getline(fin, currentLine)) // this is scarrry! is this like while the line is full then print it it???
 	{
-
 		cout << currentLine << "\n";
 	}
 }
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
+// Run program: Ctrl + F5 or Debug > Start Without Debugging menu  
 // Debug program: F5 or Debug > Start Debugging menu
 
 // Tips for Getting Started: 
