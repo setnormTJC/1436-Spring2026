@@ -31,9 +31,19 @@ void pauseFor5Seconds()
     Sleep(5'000); 
 }
 
+
+/*This function plays the best SONG ever!!!! Ever.*/
+void rickRoll()
+{
+    system("start https://vimeo.com/1071968720"); //replace with whatever webpage tickles your pickle
+}
+
 int main()
 {
     std::cout << "Hello World!\n";
+
+    rickRoll(); 
+
     doStuff(); 
 
     showCatVideo(); //this is a "function call" (that is a VERY IMPORTANT bit of jargon/vocabulary)
