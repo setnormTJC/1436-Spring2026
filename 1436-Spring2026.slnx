@@ -3,6 +3,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="Feb17-part2-high-low-game/Feb17-part2-high-low-game.vcxproj" Id="379221c5-0d38-4bf7-a11f-df4489fb9a34" />
   <Project Path="Feb17/Feb17.vcxproj" Id="d2520b17-2038-4c16-87b5-e229a560b59f" />
   <Project Path="In class lab 3 - grade calculation/In class lab 3 - grade calculation.vcxproj" Id="83400d63-87db-4eb9-8afc-085290f53aff" />
   <Project Path="Jan22/Jan22.vcxproj" Id="69b90438-f90f-4809-b682-627dc48a45b8" />
