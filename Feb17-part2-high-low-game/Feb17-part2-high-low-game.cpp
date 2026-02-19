@@ -15,24 +15,23 @@ int getRandomNumberBetween0And100()
 	return distribution(rng); 
 }
 
-
-int main()
+void playHiLow()
 {
-	int theRandomNumber =getRandomNumberBetween0And100(); 
+	int theRandomNumber = getRandomNumberBetween0And100();
 
 
 	//for debugging purposes, let's be damn dirty cheaters: 
 	//cout << "The correct number is: " << theRandomNumber << "\n";
 
 
-	int usersGuess = -123; 
+	int usersGuess = -123;
 
-	int guessCount = 0; 
+	int guessCount = 0;
 
-	while (usersGuess != theRandomNumber && guessCount < 7) //2^7 = 128 
+	while (usersGuess != theRandomNumber and guessCount < 7) //2^7 = 128 
 	{
 		cout << "GUESS the numbah!\n";
-		cin >> usersGuess; 
+		cin >> usersGuess;
 
 
 		if (usersGuess > theRandomNumber)
@@ -65,5 +64,11 @@ int main()
 	{
 		cout << "You did NOT lose!\n";
 	}
+}
+
+
+int main()
+{
+	playHiLow(); 
 }
 
