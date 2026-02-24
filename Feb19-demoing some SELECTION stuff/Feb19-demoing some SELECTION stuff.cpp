@@ -62,6 +62,15 @@ void demoJohnnyLaw()
 	}
 }
 
+/*Off by one errors are sometimes "logic errors" and sometimes they go out of bounds - runtime error*/
+void demoOffByOneError()
+{
+	cout << "Counting to 5...\n";
+	for (int i = 0; i < 5; ++i)
+	{
+		cout << i << "\n";
+	}
+}
 
 /*Lexicon is a LIST of words - a DICTIONARY is a MAPPPING of words to their meanings*/
 void printIndonesianLexicon()
@@ -105,7 +114,9 @@ int main()
 
 	//demoJohnnyLaw(); 
 
-	printIndonesianLexicon(); 
+	demoOffByOneError(); 
+
+	//printIndonesianLexicon(); 
 
 }
 
