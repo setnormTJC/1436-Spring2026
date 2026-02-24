@@ -6,18 +6,18 @@
 
 using namespace std; 
 
-int getRandomNumberBetween0And100()
+int getRandomNumberBetween0And1000()
 {
 	mt19937 rng(random_device{}()); 
 
-	uniform_int_distribution<int> distribution(0, 100);
+	uniform_int_distribution<int> distribution(0, 1000);
 
 	return distribution(rng); 
 }
 
 void playHiLow()
 {
-	int theRandomNumber = getRandomNumberBetween0And100();
+	int theRandomNumber = getRandomNumberBetween0And1000();
 
 
 	//for debugging purposes, let's be damn dirty cheaters: 
