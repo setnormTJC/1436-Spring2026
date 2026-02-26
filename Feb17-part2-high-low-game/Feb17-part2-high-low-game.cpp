@@ -23,7 +23,6 @@ void playHiLow()
 	//for debugging purposes, let's be damn dirty cheaters: 
 	//cout << "The correct number is: " << theRandomNumber << "\n";
 
-
 	int usersGuess = -123;
 
 	int guessCount = 0;
