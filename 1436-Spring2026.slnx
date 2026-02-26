@@ -12,4 +12,5 @@
   <Project Path="Simple demo of reading INPUT files and writing OUTPUT files/Simple demo of reading INPUT files and writing OUTPUT files.vcxproj" Id="9544d605-5bd6-413e-9443-598be1db96e2" />
   <Project Path="Simple demo of reading INPUT from a text file/Simple demo of reading INPUT from a text file.vcxproj" Id="bb4d3baf-6f53-4803-aed8-d267b8624054" />
   <Project Path="SimpleFunctionDemo/SimpleFunctionDemo.vcxproj" Id="a1837ec7-68b6-4921-b69e-dc2b8e76b543" />
+  <Project Path="Student submission of reading file lab/Student submission of reading file lab.vcxproj" Id="6e0ab889-2831-4493-8eeb-b06a54118652" />
 </Solution>
