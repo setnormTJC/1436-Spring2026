@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="March3-storing a list of student names in an array.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
