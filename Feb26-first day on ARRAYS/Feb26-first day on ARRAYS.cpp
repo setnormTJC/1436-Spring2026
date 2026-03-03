@@ -1,6 +1,8 @@
 // Feb26-first day on ARRAYS.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+#include"functions.h"//the "big boy and girl" way to write our own functions
+
 #include <iostream>
 #include<string>
 #include<vector> //our new best friend! hooray!

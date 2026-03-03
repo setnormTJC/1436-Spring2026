@@ -3,6 +3,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="Demoing NEGATION operator/Demoing NEGATION operator.vcxproj" Id="ddd02dda-d238-4263-82b5-91a27af8255f" />
   <Project Path="Feb17-part2-high-low-game/Feb17-part2-high-low-game.vcxproj" Id="379221c5-0d38-4bf7-a11f-df4489fb9a34" />
   <Project Path="Feb17/Feb17.vcxproj" Id="d2520b17-2038-4c16-87b5-e229a560b59f" />
   <Project Path="Feb19-demoing some SELECTION stuff/Feb19-demoing some SELECTION stuff.vcxproj" Id="30c05084-1d02-46f8-ae16-19d4f72b6fe5" />
@@ -11,6 +12,8 @@
   <Project Path="Filling up a dynamic array by reading from a file/Filling up a dynamic array by reading from a file.vcxproj" Id="06b65c8e-45d7-496e-9294-93c11891eb9f" />
   <Project Path="In class lab 3 - grade calculation/In class lab 3 - grade calculation.vcxproj" Id="83400d63-87db-4eb9-8afc-085290f53aff" />
   <Project Path="Jan22/Jan22.vcxproj" Id="69b90438-f90f-4809-b682-627dc48a45b8" />
+  <Project Path="March3-simple loop example - DECREMENTATION/March3-simple loop example - DECREMENTATION.vcxproj" Id="91ddb60b-9500-472f-8d01-f046c177709e" />
+  <Project Path="March3-storing a list of student names in an array/March3-storing a list of student names in an array.vcxproj" Id="54620764-2612-485c-9a6b-481672902e3f" />
   <Project Path="Simple demo of reading INPUT files and writing OUTPUT files/Simple demo of reading INPUT files and writing OUTPUT files.vcxproj" Id="9544d605-5bd6-413e-9443-598be1db96e2" />
   <Project Path="Simple demo of reading INPUT from a text file/Simple demo of reading INPUT from a text file.vcxproj" Id="bb4d3baf-6f53-4803-aed8-d267b8624054" />
   <Project Path="SimpleFunctionDemo/SimpleFunctionDemo.vcxproj" Id="a1837ec7-68b6-4921-b69e-dc2b8e76b543" />

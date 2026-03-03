@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{3dfea59e-f5b1-4fe5-9267-5208e7545d57}</ProjectGuid>
-    <RootNamespace>Feb26firstdayonARRAYS</RootNamespace>
+    <ProjectGuid>{91ddb60b-9500-472f-8d01-f046c177709e}</ProjectGuid>
+    <RootNamespace>March3simpleloopexampleDECREMENTATION</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,10 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Feb26-first day on ARRAYS.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="functions.h" />
+    <ClCompile Include="March3-simple loop example - DECREMENTATION.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
