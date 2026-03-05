@@ -14,6 +14,8 @@
   <Project Path="Jan22/Jan22.vcxproj" Id="69b90438-f90f-4809-b682-627dc48a45b8" />
   <Project Path="March3-simple loop example - DECREMENTATION/March3-simple loop example - DECREMENTATION.vcxproj" Id="91ddb60b-9500-472f-8d01-f046c177709e" />
   <Project Path="March3-storing a list of student names in an array/March3-storing a list of student names in an array.vcxproj" Id="54620764-2612-485c-9a6b-481672902e3f" />
+  <Project Path="March5 - demoing NESTED for loops - MULTIPLICATION table/March5 - demoing NESTED for loops - MULTIPLICATION table.vcxproj" Id="4b3152e9-9a14-4c3f-8ca1-adbc8833192d" />
+  <Project Path="March5-2D array example - tic tac toe/March5-2D array example - tic tac toe.vcxproj" Id="f0225888-a16e-480c-8bdc-d19098c48cf7" />
   <Project Path="Simple demo of reading INPUT files and writing OUTPUT files/Simple demo of reading INPUT files and writing OUTPUT files.vcxproj" Id="9544d605-5bd6-413e-9443-598be1db96e2" />
   <Project Path="Simple demo of reading INPUT from a text file/Simple demo of reading INPUT from a text file.vcxproj" Id="bb4d3baf-6f53-4803-aed8-d267b8624054" />
   <Project Path="SimpleFunctionDemo/SimpleFunctionDemo.vcxproj" Id="a1837ec7-68b6-4921-b69e-dc2b8e76b543" />
