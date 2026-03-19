@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="March17-printing a 2D array - hooray!.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="someFunkyFunctions.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
