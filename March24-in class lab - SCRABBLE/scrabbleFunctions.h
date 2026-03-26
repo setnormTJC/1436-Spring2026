@@ -1,8 +1,11 @@
 #pragma once
 
+
+#include<fstream>
 #include<iostream> 
-#include<map>
-#include<string> 
+#include<map> //map data structure (latitutde and longitude mapping to a location name)
+#include<string> //for getline and other stuff
+#include<vector>
 
 using namespace std; 
 
@@ -30,4 +33,25 @@ int calculateScore(string userWord)
 
     return score; 
 
+}
+
+vector<string> getListFromFile(string filename)
+{
+    ifstream fin(filename); 
+
+    if (!fin.is_open())
+    {
+        cout << filename << " was not found :(\n";
+        return {}; //return an "empty array" (go no further)
+    }
+
+    vector<string> allWordsInList;
+
+    string currentWord; 
+    while (getline(fin, currentWord))
+    {
+        allWordsInList.push_back(currentWord);
+    }
+
+    cout << "Did it work?\n";
 }
