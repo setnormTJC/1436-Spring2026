@@ -35,6 +35,11 @@ int calculateScore(string userWord)
 
 }
 
+//map <string, int> listToPoints =
+//{
+//    {}
+//};
+
 vector<string> getListFromFile(string filename)
 {
     ifstream fin(filename); 
@@ -48,10 +53,24 @@ vector<string> getListFromFile(string filename)
     vector<string> allWordsInList;
 
     string currentWord; 
+    int maxScoreSoFar = 0; 
+
     while (getline(fin, currentWord))
     {
         allWordsInList.push_back(currentWord);
+        int wordPoints = calculateScore(currentWord);
+        //listToPoints.insert({ currentWord, wordPoints });
+
+        if (wordPoints > maxScoreSoFar)
+        {
+            maxScoreSoFar = wordPoints; //this is a "determine max" algorithm!
+            cout << currentWord << " is the NEW high-scoring word and is worth: " << wordPoints << "\n";
+        }
+
     }
 
     cout << "Did it work?\n";
+    //How does one return the map to the main function???
+    //Do we loop through it?
+    return allWordsInList;
 }
