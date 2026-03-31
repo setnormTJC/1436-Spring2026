@@ -18,6 +18,9 @@
   <Project Path="March24-intro to std_map/March24-intro to std_map.vcxproj" Id="7c5545ac-ae87-4085-aac1-6d9257800c8d" />
   <Project Path="March3-simple loop example - DECREMENTATION/March3-simple loop example - DECREMENTATION.vcxproj" Id="91ddb60b-9500-472f-8d01-f046c177709e" />
   <Project Path="March3-storing a list of student names in an array/March3-storing a list of student names in an array.vcxproj" Id="54620764-2612-485c-9a6b-481672902e3f" />
+  <Project Path="March31-demoingCHRONO-maybeToDoListAlso/March31-demoingCHRONO-maybeToDoListAlso.vcxproj" Id="df61a044-88d2-4f2e-9eae-aac4cb86a7ae" />
+  <Project Path="March31-toDoList_withMap/March31-toDoList_withMap.vcxproj" Id="471f8632-d285-48d3-aa67-020315623d6a" />
+  <Project Path="March31-WHIRLWIND review/March31-WHIRLWIND review.vcxproj" Id="0ad3648f-748e-4fc7-9926-e9d5220e3b89" />
   <Project Path="March5 - demoing NESTED for loops - MULTIPLICATION table/March5 - demoing NESTED for loops - MULTIPLICATION table.vcxproj" Id="4b3152e9-9a14-4c3f-8ca1-adbc8833192d" />
   <Project Path="March5-2D array example - tic tac toe/March5-2D array example - tic tac toe.vcxproj" Id="f0225888-a16e-480c-8bdc-d19098c48cf7" />
   <Project Path="Simple demo of reading INPUT files and writing OUTPUT files/Simple demo of reading INPUT files and writing OUTPUT files.vcxproj" Id="9544d605-5bd6-413e-9443-598be1db96e2" />
