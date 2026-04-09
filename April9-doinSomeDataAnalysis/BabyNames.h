@@ -2,6 +2,7 @@
 
 #include<fstream> 
 #include<iostream>
+#include<sstream> 
 #include<string> 
 
 using namespace std; 
@@ -29,6 +30,21 @@ void printFileContents(string& filename)
 	string currentLine; 
 	while (getline(fin, currentLine))
 	{
+		BabyNameRecord currentRecord;// = { currentLine.firstPart, currentLine.secondPar };
+
+		stringstream ss(currentLine);
+
+		string currentPartOfLine; 
+		while (getline(ss, currentPartOfLine, ','))
+		{
+			cout << currentPartOfLine << "\n";
+
+			currentRecord.state = currentPartOfLine; 
+
+		}
+
+		system("pause"); //pauses after every ROW is printed
+
 		//push it real good! (into an array of BabyRecord type)
 		//cout << currentLine << "\n";
 	}
