@@ -13,9 +13,7 @@ int main()
 
 	char lastCharacter = phrase.back(); 
 
-
 	cout << "Last character in: \"" << phrase << "\" is: " << lastCharacter << "\n";
-
 
 	string theBestMortalKombatCharacter = "Subzero";
 
