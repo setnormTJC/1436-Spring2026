@@ -3,6 +3,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="April14-startingSTRINGfunctions/April14-startingSTRINGfunctions.vcxproj" Id="18a84e05-9c48-417b-8b60-c7f2a9d8e987" />
   <Project Path="April2-demoingInsertForCox/April2-demoingInsertForCox.vcxproj" Id="cc43b8b9-3215-490a-ac12-4e7cf0f5c8da" />
   <Project Path="April2-in class lab 8/April2-in class lab 8.vcxproj" Id="d37ac6aa-844f-4727-8978-f06436e7f65e" />
   <Project Path="April2-STRUCTURES/April2-STRUCTURES.vcxproj" Id="81ae1349-6b3a-41c9-a690-311086eb8e0d" />

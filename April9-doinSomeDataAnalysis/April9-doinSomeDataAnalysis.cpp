@@ -8,6 +8,23 @@ int main()
 {
     string filename = "babyNames.csv";
 
-    printFileContents(filename); 
+    auto babyRecords = getBabyRecords(filename); 
+
+
+    int numberOfTargetOccurrences = 0; 
+
+    string targetName = "Seth";
+    for (int row = 0; row < babyRecords.size(); ++row)
+    {
+        if (babyRecords[row].name == targetName)
+        {
+            numberOfTargetOccurrences++; 
+        }
+    }
+
+    cout << "The number of occurrences of " << targetName
+        << " is: " << numberOfTargetOccurrences << "\n";
+
+
 
 }
