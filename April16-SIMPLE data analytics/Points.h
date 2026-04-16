@@ -24,6 +24,8 @@ vector<Point> readFileAndStoreContents(string filename)
 		return {}; //empty array 
 	}
 
+	vector<Point> points; 
+
 	string currentRowInFile;
 	while (getline(fin, currentRowInFile))
 	{
@@ -41,7 +43,10 @@ vector<Point> readFileAndStoreContents(string filename)
 		getline(ss, currentPartOfRow, ',');
 		currentPoint.y = stoi(currentPartOfRow);
 
+
+		points.push_back(currentPoint); 
+
 	}
 
-	return {}; 
+	return points;
 }
